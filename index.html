@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="first-menu" >
+        <div class="title">
+            <h1 id="animated-text"></h1>
+        </div>
+       
+    </div>
+    <!--second menu-->
+    <div class="second-menu">
+         <div class="menu-links">
+            <ul>
+                    <li>
+                        <a href="#" class="active">Mes CV</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Creer un CV</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Modals</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <!--formuLAIRE-->
+    <div class="form-container">
+        <form action="" id="form">
+            <p style="color: black;font-weight: bold;">information personnels</p>
+            <input type="text" id="nom" placeholder="Votre nom" required>
+            <input type="text" id="prenom" placeholder="Votre prénom" required>
+            <input type="email" id="email" name="email" placeholder="entrez votre email" required>
+            <input type="text" id="tel" name="tel" placeholder="entrez votre numero de telephone" required>
+
+            <!--experience-->
+            <div id="experience-section">
+                <p style="text-align: center; ">Experiences</p>
+                <textarea id="experience" placeholder="Décrivez vos expériences professionnelles..."></textarea>
+            </div>
+
+            <!--formation-->
+            <div id="formation-section">
+                <p style="text-align: center; ">Formations</p>
+                <textarea id="formation" placeholder="vos Formations..."></textarea>
+            </div>
+
+            <!--competence-->
+            <div id="competence-section">
+                <p style="text-align: center; ">Competences</p>
+                <textarea id="competence" placeholder="vos Competences..."></textarea>
+            </div>
+            <button id="button" type="submit" style="margin-top:10px;">Creer</button>
+              <p id="message"></p>
+        </form>
+      
+    </div>
+
+    <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
