@@ -8,4 +8,5 @@ Le travail a été réparti comme suit : abdoulaye : création de la structure H
 
 j'ai eu quelque difficulte pendant la creation de ce site surtout quand l'utlisateur doit appuver sur "creer" pour generer automatiquement un cv qui etait un peu difficile mais on a gerer.
 
-
+##lien du site
+https://lucent-mermaid-065b7f.netlify.app/
